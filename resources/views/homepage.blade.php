@@ -1,18 +1,76 @@
 <x-app-layout>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Profile &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Free HTML5 Website Template by freehtml5.co"/>
+        <meta name="keywords"
+              content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive"/>
+        <meta name="author" content="freehtml5.co"/>
+
+        <!--
+        //////////////////////////////////////////////////////
+
+        FREE HTML5 TEMPLATE
+        DESIGNED & DEVELOPED by FreeHTML5.co
+
+        Website: 		http://freehtml5.co/
+        Email: 			info@freehtml5.co
+        Twitter: 		http://twitter.com/fh5co
+        Facebook: 		https://www.facebook.com/fh5co
+
+        //////////////////////////////////////////////////////
+         -->
+
+        <!-- Facebook and Twitter integration -->
+        <meta property="og:title" content=""/>
+        <meta property="og:image" content=""/>
+        <meta property="og:url" content=""/>
+        <meta property="og:site_name" content=""/>
+        <meta property="og:description" content=""/>
+        <meta name="twitter:title" content=""/>
+        <meta name="twitter:image" content=""/>
+        <meta name="twitter:url" content=""/>
+        <meta name="twitter:card" content=""/>
+
+        <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="{{asset("assets/css/animate.css")}}">
+        <!-- Icomoon Icon Fonts-->
+        <link rel="stylesheet" href="{{asset("assets/css/icomoon.css")}}">
+        <!-- Bootstrap  -->
+        <link rel="stylesheet" href="{{asset("assets/css/bootstrap.css")}}">
+
+        <!-- Theme style  -->
+        <link rel="stylesheet" href="{{asset("assets/css/style.css")}}">
+
+        <!-- Modernizr JS -->
+        <script src="{{asset("assets/js/modernizr-2.6.2.min.js")}}"></script>
+        <!-- FOR IE9 below -->
+        <!--[if lt IE 9]>
+        <script src="{{asset("assets/js/respond.min.js")}}"></script>
+        <![endif]-->
+
+        {{vite_assets()}}
+    </head>
 
     <div class="fh5co-loader"></div>
 
     <div id="page">
-        <header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
+        <header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner"
+                style="background-image:url({{asset("assets/images/cover_bg_3.jpg")}});" data-stellar-background-ratio="0.5">
             <div class="overlay"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center">
                         <div class="display-t js-fullheight">
                             <div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-                                <div class="profile-thumb" style="background: url(images/user-3.jpg);"></div>
-                                <h1><span>Louie Jie Mahusay</span></h1>
-                                <h3><span>Web Developer / Photographer</span></h3>
+                                <div class="profile-thumb" style="background: url({{asset("assets/images/portfolio.png")}});"></div>
+                                <h1><span>Oubri Daouda</span></h1>
+                                <h3><span>Full Stack Developer</span></h3>
                                 <p>
                                 <ul class="fh5co-social-icons">
                                     <li><a href="#"><i class="icon-twitter2"></i></a></li>
@@ -38,17 +96,28 @@
                 <div class="row">
                     <div class="col-md-4">
                         <ul class="info">
-                            <li><span class="first-block">Full Name:</span><span class="second-block">Louie Jie Mahusay</span></li>
-                            <li><span class="first-block">Phone:</span><span class="second-block">+ 1235 2355 98</span></li>
-                            <li><span class="first-block">Email:</span><span class="second-block">info@yoursite.com</span></li>
-                            <li><span class="first-block">Website:</span><span class="second-block">www.yoursite.com</span></li>
-                            <li><span class="first-block">Address:</span><span class="second-block">198 West 21th Street, Suite 721 New York NY 10016</span></li>
+                            <li><span class="first-block">Full Name:</span><span
+                                    class="second-block">Oubri Daouda</span></li>
+                            <li><span class="first-block">Phone:</span><span class="second-block">+ 1235 2355 98</span>
+                            </li>
+                            <li><span class="first-block">Email:</span><span
+                                    class="second-block">info@yoursite.com</span></li>
+                            <li><span class="first-block">Website:</span><span
+                                    class="second-block">www.yoursite.com</span></li>
+                            <li><span class="first-block">Address:</span><span class="second-block">198 West 21th Street, Suite 721 New York NY 10016</span>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-md-8">
                         <h2>Hello There!</h2>
-                        <p>There live the blind texts far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in bookmarksgrove there live the blind texts far from the countries.</p>
-                        <p>Far far away, behind the word mountains, Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci there live the blind texts from the countries Vokalia and Consonantia, there live the blind texts. Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.</p>
+                        <p>There live the blind texts far from the countries Vokalia and Consonantia, there live the
+                            blind texts. Separated they live in bookmarksgrove there live the blind texts far from the
+                            countries.</p>
+                        <p>Far far away, behind the word mountains, Quos quia provident consequuntur culpa facere
+                            ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus
+                            itaque adipisci there live the blind texts from the countries Vokalia and Consonantia, there
+                            live the blind texts. Quos quia provident consequuntur culpa facere ratione maxime commodi
+                            voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.</p>
                         <p>
                         <ul class="fh5co-social-icons">
                             <li><a href="#"><i class="icon-twitter2"></i></a></li>
@@ -83,7 +152,8 @@
                                         <span class="company">Company Name - 2016 - Current</span>
                                     </div>
                                     <div class="timeline-body">
-                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                            Consonantia, there live the blind texts.</p>
                                     </div>
                                 </div>
                             </li>
@@ -95,7 +165,8 @@
                                         <span class="company">Company Name - 2013 - 2015</span>
                                     </div>
                                     <div class="timeline-body">
-                                        <p>Far far away, behind the word mountains, they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                        <p>Far far away, behind the word mountains, they live in Bookmarksgrove right at
+                                            the coast of the Semantics, a large language ocean.</p>
                                     </div>
                                 </div>
                             </li>
@@ -107,7 +178,8 @@
                                         <span class="company">Company Name - 2010 - 2012</span>
                                     </div>
                                     <div class="timeline-body">
-                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                            Consonantia, there live the blind texts.</p>
                                     </div>
                                 </div>
                             </li>
@@ -124,7 +196,8 @@
                                         <span class="company">University Name - 2007 - 2009</span>
                                     </div>
                                     <div class="timeline-body">
-                                        <p>Far far away, behind the word mountains, they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                        <p>Far far away, behind the word mountains, they live in Bookmarksgrove right at
+                                            the coast of the Semantics, a large language ocean.</p>
                                     </div>
                                 </div>
                             </li>
@@ -136,7 +209,8 @@
                                         <span class="company">University Name - 2002 - 2006</span>
                                     </div>
                                     <div class="timeline-body">
-                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                            Consonantia, there live the blind texts.</p>
                                     </div>
                                 </div>
                             </li>
@@ -148,7 +222,8 @@
                                         <span class="company">College Name - 1999 - 2001</span>
                                     </div>
                                     <div class="timeline-body">
-                                        <p>Far far away, behind the word mountains, they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                        <p>Far far away, behind the word mountains, they live in Bookmarksgrove right at
+                                            the coast of the Semantics, a large language ocean.</p>
                                     </div>
                                 </div>
                             </li>
@@ -160,7 +235,8 @@
                                         <span class="company">College Name - 1994 - 1998</span>
                                     </div>
                                     <div class="timeline-body">
-                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                            Consonantia, there live the blind texts.</p>
                                     </div>
                                 </div>
                             </li>
@@ -377,7 +453,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work" style="background-image: url(images/portfolio-1.jpg);">
+                        <a href="#" class="work" style="background-image: url({{asset("assets/images/portfolio-1.jpg")}});">
                             <div class="desc">
                                 <h3>Project Name</h3>
                                 <span>Illustration</span>
@@ -385,7 +461,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work" style="background-image: url(images/portfolio-2.jpg);">
+                        <a href="#" class="work" style="background-image: url({{asset("assets/images/portfolio-2.jpg")}});">
                             <div class="desc">
                                 <h3>Project Name</h3>
                                 <span>Brading</span>
@@ -393,7 +469,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work" style="background-image: url(images/portfolio-3.jpg);">
+                        <a href="#" class="work" style="background-image: url({{asset("assets/images/portfolio-3.jpg")}});">
                             <div class="desc">
                                 <h3>Project Name</h3>
                                 <span>Illustration</span>
@@ -401,7 +477,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work" style="background-image: url(images/portfolio-4.jpg);">
+                        <a href="#" class="work" style="background-image: url({{asset("assets/images/portfolio-4.jpg")}});">
                             <div class="desc">
                                 <h3>Project Name</h3>
                                 <span>Design</span>
@@ -409,7 +485,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work" style="background-image: url(images/portfolio-5.jpg);">
+                        <a href="#" class="work" style="background-image: url({{asset("assets/images/portfolio-5.jpg")}});">
                             <div class="desc">
                                 <h3>Project Name</h3>
                                 <span>Website</span>
@@ -417,7 +493,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work" style="background-image: url(images/portfolio-6.jpg);">
+                        <a href="#" class="work" style="background-image: url({{asset("assets/images/portfolio-6.jpg")}});">
                             <div class="desc">
                                 <h3>Project Name</h3>
                                 <span>Illustration</span>
@@ -425,7 +501,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work" style="background-image: url(images/portfolio-7.jpg);">
+                        <a href="#" class="work" style="background-image: url({{asset("assets/images/portfolio-7.jpg")}});">
                             <div class="desc">
                                 <h3>Project Name</h3>
                                 <span>Brading</span>
@@ -433,7 +509,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work" style="background-image: url(images/portfolio-8.jpg);">
+                        <a href="#" class="work" style="background-image: url({{asset("assets/images/portfolio-8.jpg")}});">
                             <div class="desc">
                                 <h3>Project Name</h3>
                                 <span>Illustration</span>
@@ -449,17 +525,19 @@
                 <div class="row animate-box">
                     <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
                         <h2>Post on Medium</h2>
-                        <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                        <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem
+                            provident. Odit ab aliquam dolor eius.</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="fh5co-blog animate-box">
-                            <a href="#" class="blog-bg" style="background-image: url(images/portfolio-1.jpg);"></a>
+                            <a href="#" class="blog-bg" style="background-image: url({{asset("assets/images/portfolio-1.jpg")}});"></a>
                             <div class="blog-text">
                                 <span class="posted_on">Mar. 15th 2016</span>
                                 <h3><a href="#">Photoshoot On The Street</a></h3>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia, there live the blind texts.</p>
                                 <ul class="stuff">
                                     <li><i class="icon-heart2"></i>249</li>
                                     <li><i class="icon-eye2"></i>308</li>
@@ -470,11 +548,12 @@
                     </div>
                     <div class="col-md-4">
                         <div class="fh5co-blog animate-box">
-                            <a href="#" class="blog-bg" style="background-image: url(images/portfolio-2.jpg);"></a>
+                            <a href="#" class="blog-bg" style="background-image: url({{asset("assets/images/portfolio-2.jpg")}});"></a>
                             <div class="blog-text">
                                 <span class="posted_on">Mar. 15th 2016</span>
                                 <h3><a href="#">Surfing at Philippines</a></h3>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia, there live the blind texts.</p>
                                 <ul class="stuff">
                                     <li><i class="icon-heart2"></i>249</li>
                                     <li><i class="icon-eye2"></i>308</li>
@@ -485,11 +564,12 @@
                     </div>
                     <div class="col-md-4">
                         <div class="fh5co-blog animate-box">
-                            <a href="#" class="blog-bg" style="background-image: url(images/portfolio-3.jpg);"></a>
+                            <a href="#" class="blog-bg" style="background-image: url({{asset("assets/images/portfolio-3.jpg")}});"></a>
                             <div class="blog-text">
                                 <span class="posted_on">Mar. 15th 2016</span>
                                 <h3><a href="#">Capture Living On Uderwater</a></h3>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia, there live the blind texts.</p>
                                 <ul class="stuff">
                                     <li><i class="icon-heart2"></i>249</li>
                                     <li><i class="icon-eye2"></i>308</li>
@@ -508,7 +588,8 @@
                 <div class="row animate-box">
                     <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
                         <h2>Hire Me!</h2>
-                        <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+                        <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta
+                            adipisci architecto culpa amet.</p>
                         <p><a href="#" class="btn btn-default btn-lg">Contact Us</a></p>
                     </div>
                 </div>
@@ -516,7 +597,7 @@
         </div>
 
         <div id="fh5co-consult">
-            <div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
+            <div class="video fh5co-video" style="background-image: url({{asset("assets/images/cover_bg_1.jpg")}});">
                 <div class="overlay"></div>
             </div>
             <div class="choose animate-box">
@@ -541,13 +622,15 @@
 
                     <div class="row form-group">
                         <div class="col-md-12">
-                            <input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+                            <input type="text" id="subject" class="form-control"
+                                   placeholder="Your subject of this message">
                         </div>
                     </div>
 
                     <div class="row form-group">
                         <div class="col-md-12">
-                            <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+                            <textarea name="message" id="message" cols="30" rows="10" class="form-control"
+                                      placeholder="Say something about us"></textarea>
                         </div>
                     </div>
                     <div class="form-group">
@@ -565,7 +648,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p>&copy; 2017 Free HTML5 Template. All Rights Reserved. <br>Designed by <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.com" target="_blank">Unsplash</a></p>
+                    <p>&copy; 2017 Free HTML5 Template. All Rights Reserved. <br>Designed by <a
+                            href="http://freehtml5.co" target="_blank">FreeHTML5.co</a> Demo Images: <a
+                            href="http://unsplash.com" target="_blank">Unsplash</a></p>
                 </div>
             </div>
         </div>
@@ -574,5 +659,26 @@
     <div class="gototop js-top">
         <a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
     </div>
+
+
+
+    <!-- jQuery -->
+    <script src="{{asset("assets/js/jquery.min.js")}}"></script>
+    <!-- jQuery Easing -->
+    <script src="{{asset("assets/js/jquery.easing.1.3.js")}}"></script>
+    <!-- Bootstrap -->
+    <script src="{{asset("assets/js/bootstrap.min.js")}}"></script>
+    <!-- Waypoints -->
+    <script src="{{asset("assets/js/jquery.waypoints.min.js")}}"></script>
+    <!-- Stellar Parallax -->
+    <script src="{{asset("assets/js/jquery.stellar.min.js")}}"></script>
+    <!-- Easy PieChart -->
+    <script src="{{asset("assets/js/jquery.easypiechart.min.js")}}"></script>
+    <!-- Google Map -->
+{{--    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>--}}
+    <script src="{{asset("assets/js/google_map.js")}}"></script>
+
+    <!-- Main -->
+    <script src="{{asset("assets/js/main.js")}}"></script>
 
 </x-app-layout>
