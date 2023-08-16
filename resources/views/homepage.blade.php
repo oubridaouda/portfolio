@@ -61,20 +61,23 @@
 
     <div id="page">
         <header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner"
-                style="background-image:url({{asset("assets/images/cover_bg_3.jpg")}});" data-stellar-background-ratio="0.5">
+                style="background-image:url({{asset("assets/images/cover_bg_3.jpg")}});"
+                data-stellar-background-ratio="0.5">
             <div class="overlay"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center">
                         <div class="display-t js-fullheight">
                             <div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-                                <div class="profile-thumb" style="background: url({{asset("assets/images/portfolio.png")}});"></div>
+                                <div class="profile-thumb"
+                                     style="background: url({{asset("assets/images/portfolio.png")}});"></div>
                                 <h1><span>Oubri Daouda</span></h1>
                                 <h3><span>Full Stack Developer</span></h3>
                                 <p>
                                 <ul class="fh5co-social-icons">
-                                    <li><a href="#"><i class="icon-github2"></i></a></li>
-                                    <li><a href="#"><i class="icon-linkedin2"></i></a></li>
+                                    <li><a href="https://github.com/oubridaouda"><i class="icon-github2"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/oubri-daouda-a2158711a"><i
+                                                class="icon-linkedin2"></i></a></li>
                                 </ul>
                                 </p>
                             </div>
@@ -96,7 +99,8 @@
                         <ul class="info">
                             <li><span class="first-block">Full Name:</span><span
                                     class="second-block">Oubri Daouda</span></li>
-                            <li><span class="first-block">Phone:</span><span class="second-block">+ 226 77549528</span>
+                            <li><span class="first-block">Phone:</span><span class="second-block"><a
+                                        href="tel:+22677549528">+226 77549528</a></span>
                             </li>
                             <li><span class="first-block">Email:</span><span
                                     class="second-block">oubriboy47@gmai.com</span></li>
@@ -116,9 +120,10 @@
                             voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.</p>
                         <p>
                         <ul class="fh5co-social-icons">
-                            <li><a href="#"><i class="icon-github2"></i></a></li>
-                            <li><a href="#"><i class="icon-linkedin2"></i></a></li>
-{{--                            <li><a href="#"><i class="icon-twitter2"></i></a></li>--}}
+                            <li><a href="https://github.com/oubridaouda"><i class="icon-github2"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/oubri-daouda-a2158711a/"><i
+                                        class="icon-linkedin2"></i></a></li>
+                            {{--                            <li><a href="#"><i class="icon-twitter2"></i></a></li>--}}
                         </ul>
                         </p>
                     </div>
@@ -188,7 +193,8 @@
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
                                         <h3 class="timeline-title">Masters Degree</h3>
-                                        <span class="company">Ecole Superieure des Techniques Avancees - 2020 - 2021</span>
+                                        <span
+                                            class="company">Ecole Superieure des Techniques Avancees - 2020 - 2021</span>
                                     </div>
                                     <div class="timeline-body">
                                         <p>Far far away, behind the word mountains, they live in Bookmarksgrove right at
@@ -201,7 +207,8 @@
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
                                         <h3 class="timeline-title">Bachelor Degree</h3>
-                                        <span class="company">Ecole Superieure des Techniques Avancees - 2019 - 2020</span>
+                                        <span
+                                            class="company">Ecole Superieure des Techniques Avancees - 2019 - 2020</span>
                                     </div>
                                     <div class="timeline-body">
                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and
@@ -290,33 +297,33 @@
                         <h2>Skills</h2>
                     </div>
                 </div>
-{{--                <div class="row row-pb-md">--}}
-{{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
-{{--                        <div class="chart" data-percent="95"><span><strong>HTML5</strong>95%</span></div>--}}
-{{--                    </div>--}}
-{{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
-{{--                        <div class="chart" data-percent="93"><span><strong>CSS3</strong>93%</span></div>--}}
-{{--                    </div>--}}
-{{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
-{{--                        <div class="chart" data-percent="90"><span><strong>jQuery</strong>90%</span></div>--}}
-{{--                    </div>--}}
+                {{--                <div class="row row-pb-md">--}}
+                {{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
+                {{--                        <div class="chart" data-percent="95"><span><strong>HTML5</strong>95%</span></div>--}}
+                {{--                    </div>--}}
+                {{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
+                {{--                        <div class="chart" data-percent="93"><span><strong>CSS3</strong>93%</span></div>--}}
+                {{--                    </div>--}}
+                {{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
+                {{--                        <div class="chart" data-percent="90"><span><strong>jQuery</strong>90%</span></div>--}}
+                {{--                    </div>--}}
 
-{{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
-{{--                        <div class="chart" data-percent="89"><span><strong>PHP</strong>89%</span></div>--}}
-{{--                    </div>--}}
-{{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
-{{--                        <div class="chart" data-percent="85"><span><strong>MySQL</strong>85%</span></div>--}}
-{{--                    </div>--}}
-{{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
-{{--                        <div class="chart" data-percent="90"><span><strong>AngularJS</strong>90%</span></div>--}}
-{{--                    </div>--}}
-{{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
-{{--                        <div class="chart" data-percent="85"><span><strong>Ruby</strong>85%</span></div>--}}
-{{--                    </div>--}}
-{{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
-{{--                        <div class="chart" data-percent="90"><span><strong>Java</strong>90%</span></div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
+                {{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
+                {{--                        <div class="chart" data-percent="89"><span><strong>PHP</strong>89%</span></div>--}}
+                {{--                    </div>--}}
+                {{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
+                {{--                        <div class="chart" data-percent="85"><span><strong>MySQL</strong>85%</span></div>--}}
+                {{--                    </div>--}}
+                {{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
+                {{--                        <div class="chart" data-percent="90"><span><strong>AngularJS</strong>90%</span></div>--}}
+                {{--                    </div>--}}
+                {{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
+                {{--                        <div class="chart" data-percent="85"><span><strong>Ruby</strong>85%</span></div>--}}
+                {{--                    </div>--}}
+                {{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
+                {{--                        <div class="chart" data-percent="90"><span><strong>Java</strong>90%</span></div>--}}
+                {{--                    </div>--}}
+                {{--                </div>--}}
                 <div class="row">
                     <div class="col-md-6">
                         <div class="progress-wrap">
@@ -335,8 +342,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
                         <div class="progress-wrap">
                             <h3><span class="name-left">Design</span><span class="value-right">100%</span></h3>
                             <div class="progress">
@@ -345,6 +350,8 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-md-6">
                         <div class="progress-wrap">
                             <h3><span class="name-left">React native</span><span class="value-right">70%</span></h3>
                             <div class="progress">
@@ -383,7 +390,8 @@
                 </div>
                 <div class="row">
                     <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work" style="background-image: url({{asset("assets/images/portfolio-1.jpg")}});">
+                        <a href="#" class="work"
+                           style="background-image: url({{asset("assets/images/portfolio-1.jpg")}});">
                             <div class="desc">
                                 <h3>Project Name</h3>
                                 <span>Illustration</span>
@@ -391,7 +399,8 @@
                         </a>
                     </div>
                     <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work" style="background-image: url({{asset("assets/images/portfolio-2.jpg")}});">
+                        <a href="#" class="work"
+                           style="background-image: url({{asset("assets/images/portfolio-2.jpg")}});">
                             <div class="desc">
                                 <h3>Project Name</h3>
                                 <span>Brading</span>
@@ -399,7 +408,8 @@
                         </a>
                     </div>
                     <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work" style="background-image: url({{asset("assets/images/portfolio-3.jpg")}});">
+                        <a href="#" class="work"
+                           style="background-image: url({{asset("assets/images/portfolio-3.jpg")}});">
                             <div class="desc">
                                 <h3>Project Name</h3>
                                 <span>Illustration</span>
@@ -407,7 +417,8 @@
                         </a>
                     </div>
                     <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work" style="background-image: url({{asset("assets/images/portfolio-4.jpg")}});">
+                        <a href="#" class="work"
+                           style="background-image: url({{asset("assets/images/portfolio-4.jpg")}});">
                             <div class="desc">
                                 <h3>Project Name</h3>
                                 <span>Design</span>
@@ -415,7 +426,8 @@
                         </a>
                     </div>
                     <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work" style="background-image: url({{asset("assets/images/portfolio-5.jpg")}});">
+                        <a href="#" class="work"
+                           style="background-image: url({{asset("assets/images/portfolio-5.jpg")}});">
                             <div class="desc">
                                 <h3>Project Name</h3>
                                 <span>Website</span>
@@ -423,7 +435,8 @@
                         </a>
                     </div>
                     <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work" style="background-image: url({{asset("assets/images/portfolio-6.jpg")}});">
+                        <a href="#" class="work"
+                           style="background-image: url({{asset("assets/images/portfolio-6.jpg")}});">
                             <div class="desc">
                                 <h3>Project Name</h3>
                                 <span>Illustration</span>
@@ -431,7 +444,8 @@
                         </a>
                     </div>
                     <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work" style="background-image: url({{asset("assets/images/portfolio-7.jpg")}});">
+                        <a href="#" class="work"
+                           style="background-image: url({{asset("assets/images/portfolio-7.jpg")}});">
                             <div class="desc">
                                 <h3>Project Name</h3>
                                 <span>Brading</span>
@@ -439,7 +453,8 @@
                         </a>
                     </div>
                     <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work" style="background-image: url({{asset("assets/images/portfolio-8.jpg")}});">
+                        <a href="#" class="work"
+                           style="background-image: url({{asset("assets/images/portfolio-8.jpg")}});">
                             <div class="desc">
                                 <h3>Project Name</h3>
                                 <span>Illustration</span>
@@ -462,7 +477,8 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="fh5co-blog animate-box">
-                            <a href="#" class="blog-bg" style="background-image: url({{asset("assets/images/portfolio-1.jpg")}});"></a>
+                            <a href="#" class="blog-bg"
+                               style="background-image: url({{asset("assets/images/portfolio-1.jpg")}});"></a>
                             <div class="blog-text">
                                 <span class="posted_on">Mar. 15th 2016</span>
                                 <h3><a href="#">Photoshoot On The Street</a></h3>
@@ -478,7 +494,8 @@
                     </div>
                     <div class="col-md-4">
                         <div class="fh5co-blog animate-box">
-                            <a href="#" class="blog-bg" style="background-image: url({{asset("assets/images/portfolio-2.jpg")}});"></a>
+                            <a href="#" class="blog-bg"
+                               style="background-image: url({{asset("assets/images/portfolio-2.jpg")}});"></a>
                             <div class="blog-text">
                                 <span class="posted_on">Mar. 15th 2016</span>
                                 <h3><a href="#">Surfing at Philippines</a></h3>
@@ -494,7 +511,8 @@
                     </div>
                     <div class="col-md-4">
                         <div class="fh5co-blog animate-box">
-                            <a href="#" class="blog-bg" style="background-image: url({{asset("assets/images/portfolio-3.jpg")}});"></a>
+                            <a href="#" class="blog-bg"
+                               style="background-image: url({{asset("assets/images/portfolio-3.jpg")}});"></a>
                             <div class="blog-text">
                                 <span class="posted_on">Mar. 15th 2016</span>
                                 <h3><a href="#">Capture Living On Uderwater</a></h3>
@@ -535,10 +553,8 @@
                 <form action="#">
                     <div class="row form-group">
                         <div class="col-md-6">
-                            <input type="text" id="fname" class="form-control" placeholder="Your firstname">
+                            <input type="text" id="fname" class="form-control mb-30" placeholder="Your firstname">
                         </div>
-                    </div>
-                    <div class="row form-group">
                         <div class="col-md-6">
                             <input type="text" id="lname" class="form-control" placeholder="Your lastname">
                         </div>
@@ -591,7 +607,6 @@
     </div>
 
 
-
     <!-- jQuery -->
     <script src="{{asset("assets/js/jquery.min.js")}}"></script>
     <!-- jQuery Easing -->
@@ -605,7 +620,7 @@
     <!-- Easy PieChart -->
     <script src="{{asset("assets/js/jquery.easypiechart.min.js")}}"></script>
     <!-- Google Map -->
-{{--    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>--}}
+    {{--    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>--}}
     <script src="{{asset("assets/js/google_map.js")}}"></script>
 
     <!-- Main -->
