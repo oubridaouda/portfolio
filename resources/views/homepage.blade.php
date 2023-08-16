@@ -73,10 +73,8 @@
                                 <h3><span>Full Stack Developer</span></h3>
                                 <p>
                                 <ul class="fh5co-social-icons">
-                                    <li><a href="#"><i class="icon-twitter2"></i></a></li>
-                                    <li><a href="#"><i class="icon-facebook2"></i></a></li>
+                                    <li><a href="#"><i class="icon-github2"></i></a></li>
                                     <li><a href="#"><i class="icon-linkedin2"></i></a></li>
-                                    <li><a href="#"><i class="icon-dribbble2"></i></a></li>
                                 </ul>
                                 </p>
                             </div>
@@ -98,13 +96,11 @@
                         <ul class="info">
                             <li><span class="first-block">Full Name:</span><span
                                     class="second-block">Oubri Daouda</span></li>
-                            <li><span class="first-block">Phone:</span><span class="second-block">+ 1235 2355 98</span>
+                            <li><span class="first-block">Phone:</span><span class="second-block">+ 226 77549528</span>
                             </li>
                             <li><span class="first-block">Email:</span><span
-                                    class="second-block">info@yoursite.com</span></li>
-                            <li><span class="first-block">Website:</span><span
-                                    class="second-block">www.yoursite.com</span></li>
-                            <li><span class="first-block">Address:</span><span class="second-block">198 West 21th Street, Suite 721 New York NY 10016</span>
+                                    class="second-block">oubriboy47@gmai.com</span></li>
+                            <li><span class="first-block">Address:</span><span class="second-block">Ouagadougou</span>
                             </li>
                         </ul>
                     </div>
@@ -120,10 +116,9 @@
                             voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.</p>
                         <p>
                         <ul class="fh5co-social-icons">
-                            <li><a href="#"><i class="icon-twitter2"></i></a></li>
-                            <li><a href="#"><i class="icon-facebook3"></i></a></li>
+                            <li><a href="#"><i class="icon-github2"></i></a></li>
                             <li><a href="#"><i class="icon-linkedin2"></i></a></li>
-                            <li><a href="#"><i class="icon-dribbble2"></i></a></li>
+{{--                            <li><a href="#"><i class="icon-twitter2"></i></a></li>--}}
                         </ul>
                         </p>
                     </div>
@@ -144,25 +139,12 @@
                             <li class="timeline-heading text-center animate-box">
                                 <div><h3>Work Experience</h3></div>
                             </li>
-                            <li class="animate-box timeline-unverted">
+                            <li class="timeline-unverted animate-box">
                                 <div class="timeline-badge"><i class="icon-suitcase"></i></div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
-                                        <h3 class="timeline-title">Senior Developer</h3>
-                                        <span class="company">Company Name - 2016 - Current</span>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                                            Consonantia, there live the blind texts.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="timeline-inverted animate-box">
-                                <div class="timeline-badge"><i class="icon-suitcase"></i></div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h3 class="timeline-title">Junior Developer</h3>
-                                        <span class="company">Company Name - 2013 - 2015</span>
+                                        <h3 class="timeline-title">Mobile and web developer</h3>
+                                        <span class="company">Barkalab - 2022 - 2023</span>
                                     </div>
                                     <div class="timeline-body">
                                         <p>Far far away, behind the word mountains, they live in Bookmarksgrove right at
@@ -170,16 +152,29 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="animate-box timeline-unverted">
+                            <li class="animate-box timeline-inverted">
                                 <div class="timeline-badge"><i class="icon-suitcase"></i></div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
-                                        <h3 class="timeline-title">UI/UX Designer</h3>
-                                        <span class="company">Company Name - 2010 - 2012</span>
+                                        <h3 class="timeline-title">Mobile and web developer internship</h3>
+                                        <span class="company">Declic Africa - 2021 - 2022</span>
                                     </div>
                                     <div class="timeline-body">
                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and
                                             Consonantia, there live the blind texts.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-unverted animate-box">
+                                <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h3 class="timeline-title">Junior developer internship</h3>
+                                        <span class="company">ADCT - 2020 - 2021</span>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p>Far far away, behind the word mountains, they live in Bookmarksgrove right at
+                                            the coast of the Semantics, a large language ocean.</p>
                                     </div>
                                 </div>
                             </li>
@@ -193,7 +188,7 @@
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
                                         <h3 class="timeline-title">Masters Degree</h3>
-                                        <span class="company">University Name - 2007 - 2009</span>
+                                        <span class="company">Ecole Superieure des Techniques Avancees - 2020 - 2021</span>
                                     </div>
                                     <div class="timeline-body">
                                         <p>Far far away, behind the word mountains, they live in Bookmarksgrove right at
@@ -205,34 +200,8 @@
                                 <div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
-                                        <h3 class="timeline-title">Bachelors Degree</h3>
-                                        <span class="company">University Name - 2002 - 2006</span>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                                            Consonantia, there live the blind texts.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="timeline-inverted animate-box">
-                                <div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h3 class="timeline-title">Diploma Course</h3>
-                                        <span class="company">College Name - 1999 - 2001</span>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p>Far far away, behind the word mountains, they live in Bookmarksgrove right at
-                                            the coast of the Semantics, a large language ocean.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="animate-box timeline-unverted">
-                                <div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h3 class="timeline-title">Graduation</h3>
-                                        <span class="company">College Name - 1994 - 1998</span>
+                                        <h3 class="timeline-title">Bachelor Degree</h3>
+                                        <span class="company">Ecole Superieure des Techniques Avancees - 2019 - 2020</span>
                                     </div>
                                     <div class="timeline-body">
                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and
@@ -271,18 +240,6 @@
                         <div class="col-md-4 text-center">
                             <div class="feature-left">
 							<span class="icon">
-								<i class="icon-briefcase"></i>
-							</span>
-                                <div class="feature-copy">
-                                    <h3>Branding</h3>
-                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-md-4 text-center">
-                            <div class="feature-left">
-							<span class="icon">
 								<i class="icon-search"></i>
 							</span>
                                 <div class="feature-copy">
@@ -315,22 +272,11 @@
 								<i class="icon-genius"></i>
 							</span>
                                 <div class="feature-copy">
-                                    <h3>Web Marketing</h3>
+                                    <h3>API Developent</h3>
                                     <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
                                 </div>
                             </div>
 
-                        </div>
-                        <div class="col-md-4 text-center">
-                            <div class="feature-left">
-							<span class="icon">
-								<i class="icon-chat"></i>
-							</span>
-                                <div class="feature-copy">
-                                    <h3>Support</h3>
-                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -344,51 +290,35 @@
                         <h2>Skills</h2>
                     </div>
                 </div>
-                <div class="row row-pb-md">
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                        <div class="chart" data-percent="95"><span><strong>HTML5</strong>95%</span></div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                        <div class="chart" data-percent="93"><span><strong>CSS3</strong>93%</span></div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                        <div class="chart" data-percent="90"><span><strong>jQuery</strong>90%</span></div>
-                    </div>
+{{--                <div class="row row-pb-md">--}}
+{{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
+{{--                        <div class="chart" data-percent="95"><span><strong>HTML5</strong>95%</span></div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
+{{--                        <div class="chart" data-percent="93"><span><strong>CSS3</strong>93%</span></div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
+{{--                        <div class="chart" data-percent="90"><span><strong>jQuery</strong>90%</span></div>--}}
+{{--                    </div>--}}
 
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                        <div class="chart" data-percent="89"><span><strong>PHP</strong>89%</span></div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                        <div class="chart" data-percent="85"><span><strong>MySQL</strong>85%</span></div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                        <div class="chart" data-percent="90"><span><strong>AngularJS</strong>90%</span></div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                        <div class="chart" data-percent="85"><span><strong>Ruby</strong>85%</span></div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                        <div class="chart" data-percent="90"><span><strong>Java</strong>90%</span></div>
-                    </div>
-                </div>
+{{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
+{{--                        <div class="chart" data-percent="89"><span><strong>PHP</strong>89%</span></div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
+{{--                        <div class="chart" data-percent="85"><span><strong>MySQL</strong>85%</span></div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
+{{--                        <div class="chart" data-percent="90"><span><strong>AngularJS</strong>90%</span></div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
+{{--                        <div class="chart" data-percent="85"><span><strong>Ruby</strong>85%</span></div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">--}}
+{{--                        <div class="chart" data-percent="90"><span><strong>Java</strong>90%</span></div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="progress-wrap">
-                            <h3><span class="name-left">HTML5/CSS3</span><span class="value-right">95%</span></h3>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
-                                     aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="progress-wrap">
-                            <h3><span class="name-left">WordPress</span><span class="value-right">90%</span></h3>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar"
-                                     aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                                </div>
-                            </div>
-                        </div>
                         <div class="progress-wrap">
                             <h3><span class="name-left">PHP</span><span class="value-right">80%</span></h3>
                             <div class="progress">
@@ -398,7 +328,7 @@
                             </div>
                         </div>
                         <div class="progress-wrap">
-                            <h3><span class="name-left">Java</span><span class="value-right">85%</span></h3>
+                            <h3><span class="name-left">Dart</span><span class="value-right">85%</span></h3>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar"
                                      aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
@@ -416,7 +346,7 @@
                             </div>
                         </div>
                         <div class="progress-wrap">
-                            <h3><span class="name-left">Ruby</span><span class="value-right">70%</span></h3>
+                            <h3><span class="name-left">React native</span><span class="value-right">70%</span></h3>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped active" role="progressbar"
                                      aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
@@ -432,7 +362,7 @@
                             </div>
                         </div>
                         <div class="progress-wrap">
-                            <h3><span class="name-left">jQuery</span><span class="value-right">75%</span></h3>
+                            <h3><span class="name-left">JavaScript</span><span class="value-right">75%</span></h3>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
                                      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">

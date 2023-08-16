@@ -11,7 +11,7 @@ function vite_assets()
     $devServerIsRunning = false;
     if (app()->environment('local')) {
         try {
-            Http::get("http://127.0.0.1:5173");
+            Http::get("http://localhost:5173");
             $devServerIsRunning = true;
         } catch (Exception $e) {
             error_log($e);
