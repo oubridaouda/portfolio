@@ -54,7 +54,7 @@
         <script src="{{asset("assets/js/respond.min.js")}}"></script>
         <![endif]-->
 
-        {{vite_assets()}}
+{{--        {{vite_assets()}}--}}
     </head>
 
     <div class="fh5co-loader"></div>
