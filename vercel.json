@@ -23,8 +23,5 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
-    },
-    "builds": [
-        { "src": "build_command.sh", "use": "@now/static-build" }
-    ]
+    }
 }
