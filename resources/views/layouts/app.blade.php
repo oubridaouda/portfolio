@@ -8,7 +8,8 @@
     <title>Document</title>
 
     {{--  Load Vite Assets  --}}
-    {{vite_assets()}}
+    @vite(['resources/css/app.css','resources/scss/app.scss', 'resources/js/app.js'])
+{{--    {{vite_assets()}}--}}
 </head>
 <body>
 
