@@ -25,6 +25,6 @@
         "SESSION_DRIVER": "cookie"
     },
     "builds": [
-        { "src": "generate_key.sh", "use": "@now/static-build" }
+        { "src": "build_command.sh", "use": "@now/static-build" }
     ]
 }
