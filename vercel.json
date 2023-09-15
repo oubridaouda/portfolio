@@ -23,5 +23,8 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
-    }
+    },
+    "builds": [
+        { "src": "generate_key.sh", "use": "@now/static-build" }
+    ]
 }
