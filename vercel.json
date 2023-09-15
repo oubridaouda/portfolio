@@ -11,12 +11,16 @@
     },
     "routes": [
         {
-            "src": "/(.*)",
-            "dest": "/api/index.php"
+            "src": "/build/(.*)",
+            "dest": "/public/build/"
+        },
+        {
+            "src": "/resources/(.*)",
+            "dest": "/public/resources/"
         },
         {
             "src": "/(.*)",
-            "dest": "/api/php_command.php"
+            "dest": "/api/index.php"
         }
     ],
     "env": {
