@@ -111,15 +111,7 @@
                     </div>
                     <div class="col-md-8">
                         <h2>Hello There!</h2>
-                        <p>There live the blind texts far from the countries Vokalia and Consonantia, there live the
-                            blind texts. Separated they live in bookmarksgrove there live the blind texts far from the
-                            countries.</p>
-                        <p>Far far away, behind the word mountains, Quos quia provident consequuntur culpa facere
-                            ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus
-                            itaque adipisci there live the blind texts from the countries Vokalia and Consonantia, there
-                            live the blind texts. Quos quia provident consequuntur culpa facere ratione maxime commodi
-                            voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.</p>
-                        <p>
+                        <p>The development profession has always fascinated me, as it enables me to use technology to solve real-life problems, design innovative solutions and help simplify everyday life. My commitment to this field is fueled by my desire to make a positive impact through the creation of high-performance applications and IT systems. My goal is to continue evolving in this field by exploring new technologies and constantly taking on stimulating challenges to continue contributing to the technological advancement of our society.</p>
                         <ul class="fh5co-social-icons">
                             <li><a href="https://github.com/oubridaouda"><i class="icon-github2"></i></a></li>
                             <li><a href="https://www.linkedin.com/in/oubri-daouda-a2158711a/"><i
@@ -233,7 +225,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4 text-center">
+                        <div class="col-md-3 text-center">
                             <div class="feature-left">
 							<span class="icon">
 								<i class="icon-paintbrush"></i>
@@ -245,7 +237,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4 text-center">
+                        <div class="col-md-3 text-center">
                             <div class="feature-left">
 							<span class="icon">
 								<i class="icon-search"></i>
@@ -256,11 +248,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-
-                    <div class="row">
-                        <div class="col-md-4 text-center">
+                        <div class="col-md-3 text-center">
 
                             <div class="feature-left">
 							<span class="icon">
@@ -274,7 +263,7 @@
 
                         </div>
 
-                        <div class="col-md-4 text-center">
+                        <div class="col-md-3 text-center">
                             <div class="feature-left">
 							<span class="icon">
 								<i class="icon-genius"></i>
@@ -391,25 +380,25 @@
                 </div>
                 <div class="row">
                     <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work"
-                           style="background-image: url({{asset("assets/images/portfolio-1.jpg")}});">
+                        <a target="_blank" href="https://www.barkalab.com/" class="work"
+                           style="background-image: url({{asset("assets/images/project-1.png")}});">
                             <div class="desc">
-                                <h3>Project Name</h3>
+                                <h3>Barkalab</h3>
                                 <span>Illustration</span>
                             </div>
                         </a>
                     </div>
                     <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work"
-                           style="background-image: url({{asset("assets/images/portfolio-2.jpg")}});">
+                        <a target="_blank" href="https://www.coinbestchange.com/" class="work"
+                           style="background-image: url({{asset("assets/images/project-2.png")}});">
                             <div class="desc">
-                                <h3>Project Name</h3>
+                                <h3>Coinbestchange</h3>
                                 <span>Brading</span>
                             </div>
                         </a>
                     </div>
                     <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work"
+                        <a target="_blank" href="#" class="work"
                            style="background-image: url({{asset("assets/images/portfolio-3.jpg")}});">
                             <div class="desc">
                                 <h3>Project Name</h3>
@@ -418,47 +407,11 @@
                         </a>
                     </div>
                     <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work"
+                        <a target="_blank" href="#" class="work"
                            style="background-image: url({{asset("assets/images/portfolio-4.jpg")}});">
                             <div class="desc">
                                 <h3>Project Name</h3>
                                 <span>Design</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work"
-                           style="background-image: url({{asset("assets/images/portfolio-5.jpg")}});">
-                            <div class="desc">
-                                <h3>Project Name</h3>
-                                <span>Website</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work"
-                           style="background-image: url({{asset("assets/images/portfolio-6.jpg")}});">
-                            <div class="desc">
-                                <h3>Project Name</h3>
-                                <span>Illustration</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work"
-                           style="background-image: url({{asset("assets/images/portfolio-7.jpg")}});">
-                            <div class="desc">
-                                <h3>Project Name</h3>
-                                <span>Brading</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 text-center col-padding animate-box">
-                        <a href="#" class="work"
-                           style="background-image: url({{asset("assets/images/portfolio-8.jpg")}});">
-                            <div class="desc">
-                                <h3>Project Name</h3>
-                                <span>Illustration</span>
                             </div>
                         </a>
                     </div>
@@ -589,18 +542,6 @@
         </div>
 
         <div id="map" class="fh5co-map"></div>
-    </div>
-
-    <div id="fh5co-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p>&copy; 2017 Free HTML5 Template. All Rights Reserved. <br>Designed by <a
-                            href="http://freehtml5.co" target="_blank">FreeHTML5.co</a> Demo Images: <a
-                            href="http://unsplash.com" target="_blank">Unsplash</a></p>
-                </div>
-            </div>
-        </div>
     </div>
 
     <div class="gototop js-top">
