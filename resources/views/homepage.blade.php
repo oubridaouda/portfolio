@@ -111,7 +111,12 @@
                     </div>
                     <div class="col-md-8">
                         <h2>Hello There!</h2>
-                        <p>The development profession has always fascinated me, as it enables me to use technology to solve real-life problems, design innovative solutions and help simplify everyday life. My commitment to this field is fueled by my desire to make a positive impact through the creation of high-performance applications and IT systems. My goal is to continue evolving in this field by exploring new technologies and constantly taking on stimulating challenges to continue contributing to the technological advancement of our society.</p>
+                        <p>The development profession has always fascinated me, as it enables me to use technology to
+                            solve real-life problems, design innovative solutions and help simplify everyday life. My
+                            commitment to this field is fueled by my desire to make a positive impact through the
+                            creation of high-performance applications and IT systems. My goal is to continue evolving in
+                            this field by exploring new technologies and constantly taking on stimulating challenges to
+                            continue contributing to the technological advancement of our society.</p>
                         <ul class="fh5co-social-icons">
                             <li><a href="https://github.com/oubridaouda"><i class="icon-github2"></i></a></li>
                             <li><a href="https://www.linkedin.com/in/oubri-daouda-a2158711a/"><i
@@ -128,10 +133,12 @@
             <div class="container">
                 <div class="row animate-box">
                     <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                        <h2>My Resume</h2>
+                        <h2>My curriculum vitae</h2>
                     </div>
                 </div>
-                <div class="row">
+                <div class="text-center"><a target="_blank" href="{{asset("assets/pdf/Mon CV.pdf")}}"><b>Click here to Download my cv for more information</b></a></div>
+
+                <div hidden="" class="row">
                     <div class="col-md-12 col-md-offset-0">
                         <ul class="timeline">
                             <li class="timeline-heading text-center animate-box">
@@ -158,8 +165,21 @@
                                         <span class="company">Declic Africa - 2021 - 2022</span>
                                     </div>
                                     <div class="timeline-body">
-                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                                            Consonantia, there live the blind texts.</p>
+                                        <ul>
+
+                                            <li>
+                                                Contribution au développement d'une application mobile de gestion des
+                                                heures de travail des employés en entreprise avec React Native.
+                                            </li>
+                                            <li>
+                                                Support et recueil des besoins des clients.
+                                            </li>
+                                            <li>
+
+                                                Contribution aux phases de développement, de test fonctionnel et de mise
+                                                en production des applications web pour les clients de l'entreprise.
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </li>
@@ -185,27 +205,27 @@
                                 <div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
-                                        <h3 class="timeline-title">Masters Degree</h3>
+                                        <h3 class="timeline-title">Masters in Information Systems and Networks
+                                            (SSI)</h3>
+                                        <span
+                                            class="company">Ecole Superieure des Techniques Avancees - 2021 - 2022</span>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-unverted animate-box">
+                                <div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h3 class="timeline-title">Licence in Information Systems and Networks
+                                            (SIR)</h3>
                                         <span
                                             class="company">Ecole Superieure des Techniques Avancees - 2020 - 2021</span>
                                     </div>
                                     <div class="timeline-body">
-                                        <p>Far far away, behind the word mountains, they live in Bookmarksgrove right at
-                                            the coast of the Semantics, a large language ocean.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="animate-box timeline-unverted">
-                                <div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h3 class="timeline-title">Bachelor Degree</h3>
-                                        <span
-                                            class="company">Ecole Superieure des Techniques Avancees - 2019 - 2020</span>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                                            Consonantia, there live the blind texts.</p>
+                                        <p></p>
                                     </div>
                                 </div>
                             </li>
@@ -216,7 +236,7 @@
         </div>
 
 
-        <div id="fh5co-features" class="animate-box">
+        <div hidden="" id="fh5co-features" class="animate-box">
             <div class="container">
                 <div class="services-padding">
                     <div class="row">
@@ -232,7 +252,7 @@
 							</span>
                                 <div class="feature-copy">
                                     <h3>Web Design</h3>
-                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
@@ -244,7 +264,7 @@
 							</span>
                                 <div class="feature-copy">
                                     <h3>Analytics</h3>
-                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
@@ -257,7 +277,7 @@
 							</span>
                                 <div class="feature-copy">
                                     <h3>Web Developent</h3>
-                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                                    <p></p>
                                 </div>
                             </div>
 
@@ -270,7 +290,7 @@
 							</span>
                                 <div class="feature-copy">
                                     <h3>API Developent</h3>
-                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                                    <p></p>
                                 </div>
                             </div>
 
@@ -280,7 +300,7 @@
             </div>
         </div>
 
-        <div id="fh5co-skills" class="animate-box">
+        <div hidden="" id="fh5co-skills" class="animate-box">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
@@ -375,124 +395,37 @@
             <div class="container">
                 <div class="row animate-box">
                     <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                        <h2>Work</h2>
+                        <h2>My Work</h2>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3 text-center col-padding animate-box">
+
+                    <div class="col-md-4 text-center col-padding animate-box">
+                        <a target="_blank" href="#" class="work"
+                           style="background-image: url({{asset("assets/images/Seracom.png")}});">
+                            <div class="desc">
+                                <h3>SERACOM</h3>
+                                <span>Le site officiel de la Structure Rurale d’Appui aux Communautés</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 text-center col-padding animate-box">
                         <a target="_blank" href="https://www.barkalab.com/" class="work"
                            style="background-image: url({{asset("assets/images/project-1.png")}});">
                             <div class="desc">
                                 <h3>Barkalab</h3>
-                                <span>Illustration</span>
+                                <span>Le site web d'accueil de Barkalab</span>
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-3 text-center col-padding animate-box">
+                    <div class="col-md-4 text-center col-padding animate-box">
                         <a target="_blank" href="https://www.coinbestchange.com/" class="work"
                            style="background-image: url({{asset("assets/images/project-2.png")}});">
                             <div class="desc">
                                 <h3>Coinbestchange</h3>
-                                <span>Brading</span>
+                                <span>Un comparateur de prix de crypto monnai</span>
                             </div>
                         </a>
-                    </div>
-                    <div class="col-md-3 text-center col-padding animate-box">
-                        <a target="_blank" href="#" class="work"
-                           style="background-image: url({{asset("assets/images/portfolio-3.jpg")}});">
-                            <div class="desc">
-                                <h3>Project Name</h3>
-                                <span>Illustration</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 text-center col-padding animate-box">
-                        <a target="_blank" href="#" class="work"
-                           style="background-image: url({{asset("assets/images/portfolio-4.jpg")}});">
-                            <div class="desc">
-                                <h3>Project Name</h3>
-                                <span>Design</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="fh5co-blog">
-            <div class="container">
-                <div class="row animate-box">
-                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                        <h2>Post on Medium</h2>
-                        <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem
-                            provident. Odit ab aliquam dolor eius.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="fh5co-blog animate-box">
-                            <a href="#" class="blog-bg"
-                               style="background-image: url({{asset("assets/images/portfolio-1.jpg")}});"></a>
-                            <div class="blog-text">
-                                <span class="posted_on">Mar. 15th 2016</span>
-                                <h3><a href="#">Photoshoot On The Street</a></h3>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                                    Consonantia, there live the blind texts.</p>
-                                <ul class="stuff">
-                                    <li><i class="icon-heart2"></i>249</li>
-                                    <li><i class="icon-eye2"></i>308</li>
-                                    <li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="fh5co-blog animate-box">
-                            <a href="#" class="blog-bg"
-                               style="background-image: url({{asset("assets/images/portfolio-2.jpg")}});"></a>
-                            <div class="blog-text">
-                                <span class="posted_on">Mar. 15th 2016</span>
-                                <h3><a href="#">Surfing at Philippines</a></h3>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                                    Consonantia, there live the blind texts.</p>
-                                <ul class="stuff">
-                                    <li><i class="icon-heart2"></i>249</li>
-                                    <li><i class="icon-eye2"></i>308</li>
-                                    <li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="fh5co-blog animate-box">
-                            <a href="#" class="blog-bg"
-                               style="background-image: url({{asset("assets/images/portfolio-3.jpg")}});"></a>
-                            <div class="blog-text">
-                                <span class="posted_on">Mar. 15th 2016</span>
-                                <h3><a href="#">Capture Living On Uderwater</a></h3>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                                    Consonantia, there live the blind texts.</p>
-                                <ul class="stuff">
-                                    <li><i class="icon-heart2"></i>249</li>
-                                    <li><i class="icon-eye2"></i>308</li>
-                                    <li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="fh5co-started" class="fh5co-bg-dark">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row animate-box">
-                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                        <h2>Hire Me!</h2>
-                        <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta
-                            adipisci architecto culpa amet.</p>
-                        <p><a href="#" class="btn btn-default btn-lg">Contact Us</a></p>
                     </div>
                 </div>
             </div>
@@ -504,7 +437,7 @@
             </div>
             <div class="choose animate-box">
                 <h2>Contact</h2>
-                <form action="#">
+                <form>
                     <div class="row form-group">
                         <div class="col-md-6">
                             <input type="text" id="fname" class="form-control mb-30" placeholder="Your firstname">
