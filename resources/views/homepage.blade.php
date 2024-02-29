@@ -2,7 +2,6 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Profile &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Free HTML5 Website Template by freehtml5.co"/>
         <meta name="keywords"
@@ -71,7 +70,7 @@
                         <div class="display-t js-fullheight">
                             <div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
                                 <div class="profile-thumb"
-                                     style="background: url({{asset("assets/images/portfolio.png")}});"></div>
+                                     style="background: url({{asset("assets/images/oubri-daouda.jpg")}});"></div>
                                 <h1><span>Oubri Daouda</span></h1>
                                 <h3><span>Full Stack Developer</span></h3>
                                 <p>
