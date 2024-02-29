@@ -104,7 +104,7 @@
                                         href="tel:+22677549528">+226 77549528</a></span>
                             </li>
                             <li><span class="first-block">Email:</span><span
-                                    class="second-block">oubriboy47@gmai.com</span></li>
+                                    class="second-block">oubridaouda@gmai.com</span></li>
                             <li><span class="first-block">Address:</span><span class="second-block">Ouagadougou</span>
                             </li>
                         </ul>
