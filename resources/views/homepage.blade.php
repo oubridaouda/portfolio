@@ -400,7 +400,7 @@
                 <div class="row">
 
                     <div class="col-md-4 text-center col-padding animate-box">
-                        <a target="_blank" href="#" class="work"
+                        <a target="_blank" href="https://www.seracom-bf.com/" class="work"
                            style="background-image: url({{asset("assets/images/Seracom.png")}});">
                             <div class="desc">
                                 <h3>SERACOM</h3>
