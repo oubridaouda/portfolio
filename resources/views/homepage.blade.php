@@ -409,6 +409,15 @@
                         </a>
                     </div>
                     <div class="col-md-4 text-center col-padding animate-box">
+                        <a target="_blank" href="https://www.inove-tech-service.com/" class="work"
+                           style="background-image: url({{asset("assets/images/inove-tech-service.png")}});">
+                            <div class="desc">
+                                <h3>Inove Tech Service</h3>
+                                <span>Le site web de vente en ligne de produits informatique</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 text-center col-padding animate-box" hidden="">
                         <a target="_blank" href="https://www.barkalab.com/" class="work"
                            style="background-image: url({{asset("assets/images/project-1.png")}});">
                             <div class="desc">
@@ -422,7 +431,7 @@
                            style="background-image: url({{asset("assets/images/project-2.png")}});">
                             <div class="desc">
                                 <h3>Coinbestchange</h3>
-                                <span>Un comparateur de prix de crypto monnai</span>
+                                <span>Un comparateur de prix de crypto monnai pour le compte de Barkalab</span>
                             </div>
                         </a>
                     </div>
