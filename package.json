@@ -12,7 +12,7 @@
         "vite": "^4.2.1"
     },
     "dependencies": {
-        "@babel/core": "^7.23.0",
+        "@babel/core": "^7.23.2",
         "@babel/parser": "^7.23.0",
         "@babel/types": "^7.23.0"
     }
